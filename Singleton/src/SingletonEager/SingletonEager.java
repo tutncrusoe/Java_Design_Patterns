@@ -2,12 +2,12 @@ package SingletonEager;
 
 public final class SingletonEager {
 
-    private static final SingletonEager eagerInstance = new SingletonEager();
+    private static final SingletonEager EAGER_INSTANCE = new SingletonEager();
 
     public SingletonEager() {
     }
 
     public static SingletonEager getEagerInstance() {
-        return eagerInstance;
+        return EAGER_INSTANCE;
     }
 }
