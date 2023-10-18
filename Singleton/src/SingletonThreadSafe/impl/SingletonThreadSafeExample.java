@@ -3,7 +3,7 @@ package SingletonThreadSafe.impl;
 public final class SingletonThreadSafeExample {
     private static SingletonThreadSafeExample singletonThreadSafe;
 
-    public SingletonThreadSafeExample() {
+    private SingletonThreadSafeExample() {
 
         try {
             System.out.println("Initializing by thread: " + Thread.currentThread().getName());

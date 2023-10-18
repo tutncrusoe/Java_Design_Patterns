@@ -4,7 +4,7 @@ public final class SingletonEager {
 
     private static final SingletonEager EAGER_INSTANCE = new SingletonEager();
 
-    public SingletonEager() {
+    private SingletonEager() {
     }
 
     public static SingletonEager getEagerInstance() {
